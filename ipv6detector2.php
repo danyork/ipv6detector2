@@ -35,7 +35,7 @@ function ipv6detector($args) {
    extract($args);
 
    echo $before_widget;
-   echo $before_title . "IPv6 detector 2" . $after_title;
+   echo $before_title . "IPv6 detector" . $after_title;
 
    if (substr_count($ip, ":") > 0 && substr_count($ip, ".") == 0) {
        echo get_option('ipv6detector_v6_msg');
