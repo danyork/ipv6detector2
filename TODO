@@ -1,0 +1,6 @@
+I am tracking issues related to this plugin at:
+
+https://github.com/danyork/ipv6detector2/issues
+
+As of this release one issue is that the current code uses deprecated WP functions and needs to be
+modified to use the new functions.
