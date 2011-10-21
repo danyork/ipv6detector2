@@ -25,8 +25,18 @@ This section describes how to install the plugin and get it working.
 1. Upload 'ipv6detector2' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
+== Upgrade Notice ==
 
+= 1.0 = 
+First release of IPv6 Detector 2.
 
+== Changelog ==
+
+= 1.0 =
+First release of IPv6 Detector 2. As noted in the description, the changes are:
+- Removal of <ul> with links to IPv4 depletion resources
+- Removal of link to whois service
+- Addition of "ipv" class so that IP address can be modified via CSS
 
 ---------- ORIGINAL README FOLLOWS ----------
 

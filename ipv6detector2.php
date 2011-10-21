@@ -1,12 +1,12 @@
 <?php
 
 /*
- Plugin Name: ipv6detector2
- Plugin URI: 
+ Plugin Name: IPv6 Detector 2
+ Plugin URI: https://github.com/danyork/ipv6detector2
  Description: Just a simple plugin to detect if a visitor is using ipv6 or not.
  Version: 1.0
  Author: Dan York
- Author URI: http://danyork.com/
+ Author URI: http://code.danyork.com/
  License: GPL2
 */
 
