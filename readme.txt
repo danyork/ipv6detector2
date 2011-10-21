@@ -25,6 +25,10 @@ This section describes how to install the plugin and get it working.
 1. Upload 'ipv6detector2' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
+NOTE:  If you are installing from the source on Github, the latest downloads can be found at:
+
+https://github.com/danyork/ipv6detector2/downloads
+
 == Upgrade Notice ==
 
 = 1.0 = 
