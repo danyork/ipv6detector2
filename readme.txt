@@ -1,4 +1,36 @@
-=== IPv6 Detector  ===
+=== IPv6 Detector 2 ===
+Contributors: Dan York
+Tags: ipv6, ipv4, detect, whois
+Requires at least: 2.6.0
+Tested up to: 3.2.1
+Stable tag: 1.0
+
+== Description ==
+Simple IPv6 detector widget for WordPress to show if user is connecting with IPv6 or IPv4.
+
+This "IPv6 Detector 2" is a variation of "IPv6 Detector" by Andres Altamirano 
+(http://patux.cl/ipv6detector ) that removes the links to IPv4 address depletion and removes 
+the link to a whois service with the address. I created this second version because I wanted to 
+reduce the size of the widget in the sidebar to my blogs - and I wanted to remove the whois service link.
+
+Additionally, I added a class "ipv" to the <p> tag where the address is output so that it 
+could be classed in a CSS file with a smaller font to accommodate longer IPv6 addresses.
+
+Outside of those changes, it is essentially the same code created by Andres Altamirano.
+
+== Installation ==
+
+This section describes how to install the plugin and get it working.
+
+1. Upload 'ipv6detector2' to the '/wp-content/plugins/' directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+
+
+
+
+---------- ORIGINAL README FOLLOWS ----------
+
+=== IPv6 Detector ===
 Contributors: Andres Altamirano
 Donate link: http://patux.cl
 Tags: ipv6, ipv4, detect, whois
