@@ -21,8 +21,8 @@
 add_action('init', 'ipv6detector_register_widget');
 
 function ipv6detector_register_widget() {
-   register_sidebar_widget('ipv6detector', 'ipv6detector');
-   register_widget_control('ipv6detector', 'ipv6detector_control');
+   register_sidebar_widget('IPv6 Detector 2', 'ipv6detector');
+   register_widget_control('IPv6 Detector 2', 'ipv6detector_control');
    add_option("hits_6", 0);
    add_option("hits_4", 0);
    add_option("ipv6detector_v4_msg","Still using IPv4?");
@@ -35,7 +35,7 @@ function ipv6detector($args) {
    extract($args);
 
    echo $before_widget;
-   echo $before_title . "IPv6 detector" . $after_title;
+   echo $before_title . "IPv6 detector 2" . $after_title;
 
    if (substr_count($ip, ":") > 0 && substr_count($ip, ".") == 0) {
        echo get_option('ipv6detector_v6_msg');
